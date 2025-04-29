@@ -27,6 +27,10 @@ const App = () => {
   const { user, loader } = useSelector((state) => state.auth);
 
   const dispatch = useDispatch();
+<<<<<<< HEAD
+=======
+  console.log("new changes apliyed")
+>>>>>>> e9c2c48 (new change at 29-04-2025)
 
   useEffect(() => {
     axios
